@@ -35,7 +35,7 @@ export default async function RootLayout({
   );
 }
 
-export async function getData() {
+async function getData() {
   // Fetch data from external API
   const res = await fetch(
     `https://cached-api.arena.im/v1/liveblog/cesar/vxx5EHn/ldjson`
